@@ -1,8 +1,8 @@
 #include <iostream>
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+#include "../include/Application.h"
 
 int main(int argc, char** argv) {
-	
+	char* config = argv[1];
+	Application app(config);
 	return 0;
 }
